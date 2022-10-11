@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+  
+}
+
+.main-body{
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    display: flex;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.title{
+    border: 5px solid #FFFF00;
+    padding: 0.5rem;
+
+}
+.btn-div{
+    margin: 0 auto;
+    border: 1px solid rgb(111, 130, 235);
+    background-color: rgb(216, 68, 68) transparent;
+    margin-top: 1rem;
+}
